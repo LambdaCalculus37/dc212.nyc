@@ -1,0 +1,40 @@
+baseURL = 'https://dc212.nyc'
+languageCode = 'en-us'
+title = 'DC212 - An NYC Defcon Group'
+DefaultContentLanguage = "en"
+
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "Welcome to DC212!"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "We are a Defcon Group located in New York City" 
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Urls for social networks
+    twitter = "https://twitter.com/defcon212"
+    github  = "https://github.com/NikolaeVarius/dc212.nyc"
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 3.0
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = true
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+[module]
+  [[module.imports]]
+    path = "gitlab.com/jmfergeau/hugo.386"
