@@ -34,6 +34,11 @@ DefaultContentLanguage = "en"
     name = "About"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
     weight = 10          # A number to order the buttons in the navbar
+  [[menu.main]]
+    identifier = "badgelife" # An unique identifier for the button
+    name = "Badgelife"       # A display name for the button
+    url = "/badgelife/"      # The path to the content. It can lead to a single page (like here)
+    weight = 1          # A number to order the buttons in the navbar
 
 [module]
   [[module.imports]]
