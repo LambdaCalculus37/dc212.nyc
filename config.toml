@@ -1,15 +1,15 @@
 baseURL = 'https://dc212.nyc'
 languageCode = 'en-us'
-title = 'DC212 - An NYC Defcon Group'
+title = 'DC212.NYC'
 DefaultContentLanguage = "en"
 
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "Welcome to DC212!"
+    mainpagetitle = "Welcome to DC212! A Defcon Group located in New York City"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "We are a Defcon Group located in New York City" 
+    mainpagesubtitle = "We are always looking for anyone who wants to present a topic of their choosing. Contact us if you are interested" 
 
     # Show the "built on Hugo" disclaimer
     showhugo = true
